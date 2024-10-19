@@ -1,0 +1,17 @@
+{
+  "name": "vhs-watch",
+  "version": "1.0.0",
+  "description": "vhs watch for Zepp OS 3.0 (GTS 4)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lisoveliy",
+  "license": "GPL-3.0",
+  "devDependencies": {
+  "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.9"
+  }
+}
