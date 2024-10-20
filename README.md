@@ -3,6 +3,7 @@
 Watchface with simple and useful design without any diverting factors
 
 ## Features
+- AOD (Always on display)
 - Heartbeat
 - Date with current month and day
 - Clocks with hours, minutes and **seconds**
