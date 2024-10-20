@@ -1,7 +1,7 @@
 import * as hmUI from '@zos/ui'
 import fontArray from '../fontData/secondaryFont'
-const moduleX = 50
-const moduleY = 10
+const moduleX = 225
+const moduleY = 50
 
 export default function () {
     console.log("[modules]: date module init")
