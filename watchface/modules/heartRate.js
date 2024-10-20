@@ -6,15 +6,16 @@ import secondaryFont from '../fontData/secondaryFont';
 let heartRateWg;
 export default function () {
     console.log("[modules]: heartrate module init")
-    let heart = new hmSensor.HeartRate();
-    updateHeartWidget(heart.getCurrent())
-    heart.onCurrentChange(() => updateHeartWidget(heart.getCurrent()))
-    if (!getScene() != SCENE_AOD)
+    if (getScene() != SCENE_AOD) {
+        let heart = new hmSensor.HeartRate();
+        updateHeartWidget(heart.getLast())
+        heart.onCurrentChange(() => updateHeartWidget(heart.getCurrent()))
         hmUI.createWidget(hmUI.widget.IMG, {
             x: 10,
             y: 365,
             src: 'misc/hb.PNG'
         })
+    }
 }
 
 function updateHeartWidget(hbpm) {
@@ -24,7 +25,7 @@ function updateHeartWidget(hbpm) {
     if (heartRateWg) {
         hmUI.deleteWidget(heartRateWg)
     }
-    if (!getScene() != SCENE_AOD) {
+    if (getScene() != SCENE_AOD) {
         heartRateWg = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
             x: 100,
             y: 365,
