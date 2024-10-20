@@ -3,14 +3,16 @@ import * as hmUI from '@zos/ui';
 import secondaryFont from '../fontData/secondaryFont';
 
 let distWg;
+const moduleX = 50
+const moduleY = 405
 export default function(){
     console.log("[modules]: distance module init")
     let distance = new hmSensor.Distance();
     updateDistance(distance.getCurrent())
     distance.onChange(() => updateDistance(distance.getCurrent()))
     hmUI.createWidget(hmUI.widget.IMG, {
-        x: 10,
-        y: 405,
+        x: moduleX,
+        y: moduleY,
         src: 'misc/dist.PNG'
       })
 }
@@ -24,8 +26,8 @@ function updateDistance(dist){
     }
     dist = (dist * 1000).toFixed(0)
     distWg = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
-        x: 160,
-        y: 405,
+        x: moduleX + 150,
+        y: moduleY,
         type: hmUI.data_type.DISTANCE,
         font_array: secondaryFont,
         h_space: 1,
