@@ -24,7 +24,6 @@ function updateDistance(dist){
     if(distWg){
         hmUI.deleteWidget(distWg)
     }
-    dist = (dist * 1000).toFixed(0)
     distWg = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
         x: moduleX + 150,
         y: moduleY,
