@@ -6,15 +6,14 @@ import heartRateModule from "./modules/heartRate"
 
 WatchFace({
   onInit() {
-    
+    clockModule()
+    dateModule()
+    batteryModule()
+    heartRateModule()
+    distanceModule()
   },
 
   build() {
-      clockModule()
-      dateModule()
-      batteryModule()
-      heartRateModule()
-      distanceModule()
   },
 
   onDestroy() {
