@@ -13,7 +13,6 @@ export default function () {
         hmUI.createWidget(hmUI.widget.TEXT_IMG, {
             x: 100,
             y: 365,
-            type: hmUI.data_type.BATTERY,
             font_array: secondaryFont,
             h_space: 1,
             align_h: hmUI.align.LEFT,
