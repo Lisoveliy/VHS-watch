@@ -1,6 +1,6 @@
 import { getScene, SCENE_AOD } from '@zos/app'
-import * as hmUI from '@zos/ui';
-import secondaryFont from '../fontData/secondaryFont';
+import * as hmUI from '@zos/ui'
+import secondaryFont from '../fontData/secondaryFont'
 
 const moduleX = 50
 const moduleY = 405
@@ -24,7 +24,7 @@ export default function () {
         hmUI.createWidget(hmUI.widget.IMG, {
             x: moduleX + 243,
             y: moduleY,
-            src: "misc/km.png"
+            src: "misc/km.PNG"
         })
     }
 }

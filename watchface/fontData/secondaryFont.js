@@ -9,4 +9,4 @@ export default [
     'date/7.PNG',
     'date/8.PNG',
     'date/9.PNG'
-];
+]

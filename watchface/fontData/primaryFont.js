@@ -9,4 +9,4 @@ export default [
     'clk/7.PNG',
     'clk/8.PNG',
     'clk/9.PNG'
-];
+]

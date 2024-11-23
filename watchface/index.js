@@ -3,6 +3,7 @@ import clockModule from "./modules/clock"
 import dateModule from "./modules/date"
 import distanceModule from "./modules/distance"
 import heartRateModule from "./modules/heartRate"
+import weekModule from "./modules/week"
 
 WatchFace({
   onInit() {
@@ -11,6 +12,7 @@ WatchFace({
     batteryModule()
     heartRateModule()
     distanceModule()
+    weekModule()
   },
 
   build() {
