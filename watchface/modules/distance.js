@@ -13,12 +13,18 @@ export default function () {
             src: 'misc/dist.PNG'
         })
         hmUI.createWidget(hmUI.widget.TEXT_IMG, {
-            x: moduleX + 150,
+            x: moduleX + 145,
             y: moduleY,
             font_array: secondaryFont,
             h_space: 1,
             align_h: hmUI.align.LEFT,
-            type: hmUI.data_type.DISTANCE
+            type: hmUI.data_type.DISTANCE,
+            dot_image: "misc/altDot.PNG"
+        })
+        hmUI.createWidget(hmUI.widget.IMG, {
+            x: moduleX + 243,
+            y: moduleY,
+            src: "misc/km.png"
         })
     }
 }

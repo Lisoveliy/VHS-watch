@@ -6,12 +6,12 @@ export default function () {
     console.log("[modules]: heartrate module init")
     if (getScene() != SCENE_AOD) {
         hmUI.createWidget(hmUI.widget.IMG, {
-            x: 10,
+            x: 20,
             y: 365,
             src: 'misc/hb.PNG'
         })
         hmUI.createWidget(hmUI.widget.TEXT_IMG, {
-            x: 100,
+            x: 105,
             y: 365,
             font_array: secondaryFont,
             h_space: 1,
