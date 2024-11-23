@@ -1,6 +1,6 @@
 {
   "name": "vhs-watch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "vhs watch for Zepp OS 3.0 (GTS 4)",
   "main": "app.js",
   "scripts": {
