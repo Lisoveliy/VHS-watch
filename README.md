@@ -9,9 +9,10 @@ Watchface with simple and useful design without any diverting factors
 - Clocks with hours, minutes and **seconds**
 - Battery percentage
 - Distance
+- Week days on english and russian (v1.1.0)
 
 ## How it looks like
 
-![zepp_screenshot_1729449757859](https://github.com/user-attachments/assets/ac3ddf5b-aaae-4239-92f2-644c7d2e16f0)
+![image](https://github.com/user-attachments/assets/56231f4f-1002-4fb6-9ac3-c1f1ca5dc823)
 <img src="https://github.com/user-attachments/assets/9158e9f6-2234-40ca-b5cf-727f86ff8767" height=200>
 <img src="https://github.com/user-attachments/assets/2c77cb6f-9639-4c7f-8ef2-38d1e17ae81b" height=200>
